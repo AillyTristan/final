@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta name="author" content="Tristan Jensen">
+    <meta name="description" content="CrystalHaven Lodges Home Page">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <title>CrystalHaven Lodges | Contact</title>
+
+</head>
+<body>
+
+    <header>
+
+        <h1>CrystalHaven Lodges</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#accommodations">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <div class="contactintro">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            <p>Required fields marked with a <span>*</span></p>
+            <img src="images/swiss-sunset.jpg" alt="View of the lake and beautiful sunset scenery.">
+            
+        </div>
+        
+
+        <form method="POST" action="https://wp.zybooks.com/form-viewer.php">
+
+
+            
+            <div class="gridsides">
+                <label for="name">Full Name<span>*</span></label>
+                <input type="text" id="name" name="fullname" required>
+        
+                <label for="email">Email<span>*</span></label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone<span>*</span></label>
+                <input type="tel" id="phone" name="tel" required> 
+            </div>
+           
+        
+            <div class="gridsides">
+                <div class="radiobox">
+                    <p>Prefered Contact Method<span>*</span></p>
+                    <input type="radio" id="emailspref" name="option" value="emailprefered" required>
+                    <label for="emailspref">Email</label>
+        
+                    <input type="radio" id="textspref" name="option" value="phoneprefered">
+                    <label for="textspref">Text</label>
+                </div>
+
+
+                <label for="message">Comment<span>*</span></label>
+                <textarea id="message" name="message" rows="5" cols="50" required></textarea>
+
+            </div>
+
+            
+
+    
+            
+            <input type="submit" value="Submit">
+            
+        </form>
+
+    </main>
+
+    <footer>
+        <p> Copyright ©2023 - CrystalHaven Lodges</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+
+
+
+</body>
+</html>
